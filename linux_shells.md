@@ -30,7 +30,8 @@ cat /etc/shells
 **User friendliness?** Most user-friendly.  
 **Syntax highlighting offered?** Yes. 
 
-3. ***Zsh***  
+3. ***Zsh***
+
 **Full Name**: Z shell.  
 **Scripting**: Excellent level of scripting, combing the traditional capabilities of Bash shell with some extra features.  
 **Tab Completion feature offered?** Can be extended heavily by using plugins.  
