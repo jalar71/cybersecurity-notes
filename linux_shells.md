@@ -39,3 +39,19 @@ cat /etc/shells
 **User friendliness?** less user-friendly yet very popular and widely used.  
 **Syntax highlighting offered?** Not available  
 
+---
+## Shell Scripting & Components
+- Every script **must** start with "#!" and these combination of characters is called a ***shebang***!.
+- Shebang "#!" is added at the beginning of the script
+- Followed by the name of the interpereter to be used.
+
+Below is an example code:
+```bash
+# Defining the Interpreter
+#! /bin/bash
+echo "Hey, what's your name?"
+read name
+echo "Welcome, $name"
+```
+`echo` -> Used to print output \
+`read` -> Used to take input and store it in a variable.
