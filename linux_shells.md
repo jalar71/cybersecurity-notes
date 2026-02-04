@@ -48,10 +48,12 @@ cat /etc/shells
 Below is an example code:
 ```bash
 # Defining the Interpreter
+- Followed by the name of the interpereter to be used., \
 #! /bin/bash
 echo "Hey, what's your name?"
 read name
 echo "Welcome, $name"
 ```
 `echo` -> Used to print output \
-`read` -> Used to take input and store it in a variable.
+`read` -> Used to take input and store it in a variable. \
+***Now let's make the script executabel***
