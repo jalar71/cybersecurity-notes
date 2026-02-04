@@ -21,3 +21,20 @@ cat /etc/shells
 **User friendliness?** less user-friendly yet very popular and widely used.  
 **Syntax highlighting offered?** Not available  
 
+2. ***Fish***
+
+**Full Name**: Friendly Interactive Shell  
+**Scripting**: Limited features. 
+**Tab Completion feature offered?** Yes, provides advanced tab completion by giving suggestions based on the previous command.  
+**Customization offered?** Offers some customization through interactive tools.
+**User friendliness?** Most user-friendly.  
+**Syntax highlighting offered?** Yes. 
+
+3. ***Zsh***  
+**Full Name**: Z shell.  
+**Scripting**: Excellent level of scripting, combing the traditional capabilities of Bash shell with some extra features.  
+**Tab Completion feature offered?** Can be extended heavily by using plugins.  
+**Customization offered?** Advanced customization through oh-my-zsh framework.  
+**User friendliness?** less user-friendly yet very popular and widely used.  
+**Syntax highlighting offered?** Not available  
+
