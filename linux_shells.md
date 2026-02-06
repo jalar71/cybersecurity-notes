@@ -56,4 +56,22 @@ echo "Welcome, $name"
 ```
 `echo` -> Used to print output \
 `read` -> Used to take input and store it in a variable. \
-***Now let's make the script executabel***
+***Now let's make the script executable*** \
+```bash
+chmod +x first_script.sh
+```
+Now, how to execute a script? \
+```bash
+./first_script.sh
+```
+Let's take another example and see how looping would be done in Bash. \
+Below is an example: \
+```bash
+# Defining the Interpreter
+#! /bin/bash
+for i in {1..10};
+do
+echo $i
+done
+```
+Conditional Statements in Bash:
