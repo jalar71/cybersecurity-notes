@@ -13,6 +13,7 @@ Linux Commands
 |`find`| the name says it all|
 |`wc`| Word count |
 |`grep`| Search in the file for a word or text|
+|`su`| Switch User Example: `su user2`|
 ### Let's Take a look at how `find` could be used
 If we know the filename, we can simply use 
 ```bash
@@ -23,3 +24,20 @@ Next if you want to look for all the files which have the `.txt` extension
 ```bash
 find -name *.txt
 ```
+# SHELL OPERATORS
+|Operator| What it does?|
+|---|---|
+|`&`| Allows you to run commands in the background of your terminal|
+|`&&`|Allows you to combine multiple commands together in one line of your terminal|
+|`>`| Takes the output from a command (such as using `cat` to output file) and direct it elsewhers.|
+|`>>`| Appends the output rather than replacing |
+# File Creation Commands
+|Command|Purpose|
+|---|---|
+|`touch`| Create File|
+|`mkdir`| Make Directory|
+|`cp`| copy|
+|`mv`| move the file|
+|`rm`| Remove the file|
+|`file`| Determine what kind of file it is|
+|`ls -lh`|Listing permissions of files|
