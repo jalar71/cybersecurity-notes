@@ -41,3 +41,9 @@ find -name *.txt
 |`rm`| Remove the file|
 |`file`| Determine what kind of file it is|
 |`ls -lh`|Listing permissions of files|
+## Common Directories 
+|Directory|Purpose|
+|---|---|
+|`/etc`| stores system files that are used by your operating system.|
+|`/var` |stores data that is frequently accessed or written by services or applications running on the system. Example being log files from running services and applications.|
+|`/tmp`|stores data that is only needed to be accessed once or twice. One use in pentesting is that any user can write to this folder by default. Meaning once we have access to a machine, it serves as a good place to store things like our enumeration scripts.|
