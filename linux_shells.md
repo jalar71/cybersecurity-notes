@@ -1,4 +1,4 @@
-# This is the document for Linux Shell Notes
+# Basic of Bash
 ---
 ### Bash in not the only one!
 Linux offers a few different shells. The user can select which one to use based off the familiarity and the functionality of the chosen shell.
@@ -74,4 +74,16 @@ do
 echo $i
 done
 ```
-Conditional Statements in Bash:
+### Conditional Statements in Bash:
+Learning the "if-statements" in Bash is critical I mean how else can you make decision? \
+```bash
+#Defining the Interpreter
+#! /bin/bash
+echo "Please enter your name first:"
+if [ "$name" = "Stewart" ]; then
+  echo "Welcome Stewart! Here is the secret: pswd"
+else
+  echo "Sorry! You are not authorized to access the secret"
+fi
+```
+No, indentation is **not** needed in bash. 
