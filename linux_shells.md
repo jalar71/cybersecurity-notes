@@ -1,7 +1,8 @@
-# Basic of Bash
+# Basics of Bash
 ---
-### Bash in not the only one!
-Linux offers a few different shells. The user can select which one to use based off the familiarity and the functionality of the chosen shell.
+## Bash is not the only one!
+Linux offers a few different shells each offering distinguishable features depending how tech savy the user is. The user can select which one to use based off the familiarity and the functionality of the chosen shell.
+
 - Find out what shell you're using
 ```bash
 echo $SHELL
@@ -14,21 +15,23 @@ cat /etc/shells
 ### Now let's dive into a few popular ones and what do they do:
 1. ***Bash***
 
-**Full Name**: Bourne Again Shell  
-**Scripting**: Widely compatible with extensive documentation available.  
-**Tab Completion feature offered?** Yes  
-**Customization offered?** Basic level  
-**User friendliness?** less user-friendly yet very popular and widely used.  
-**Syntax highlighting offered?** Not available  
+|Thing|Purpose|
+|---|---|
+|**Full Name**: |`Bourne Again Shell` | 
+**Scripting**: `Widely compatible with extensive documentation available.`  
+**Tab Completion feature offered?** `Yes`  
+**Customization offered?** `Basic level`  
+**User friendliness?** `less user-friendly yet very popular and widely used.` \
+**Syntax highlighting offered?** `Not available`  
 
 2. ***Fish***
 
-**Full Name**: Friendly Interactive Shell  
-**Scripting**: Limited features. 
-**Tab Completion feature offered?** Yes, provides advanced tab completion by giving suggestions based on the previous command.  
-**Customization offered?** Offers some customization through interactive tools.
-**User friendliness?** Most user-friendly.  
-**Syntax highlighting offered?** Yes. 
+**Full Name**: `Friendly Interactive Shell`  
+**Scripting**: `Limited features.` \
+**Tab Completion feature offered?** `Yes, provides advanced tab completion by giving suggestions based on the previous command.`  \
+**Customization offered?** `Offers some customization through interactive tools.` \
+**User friendliness?** `Most user-friendly.`  \
+**Syntax highlighting offered?** `Yes.` 
 
 3. ***Zsh***
 
