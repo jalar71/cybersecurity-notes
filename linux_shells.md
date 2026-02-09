@@ -3,11 +3,11 @@
 ## Bash is not the only one!
 Linux offers a few different shells each offering distinguishable features depending how tech savy the user is. The user can select which one to use based off the familiarity and the functionality of the chosen shell.
 
-- Find out what shell you're using
+- 🔍Find out what shell you're using
 ```bash
 echo $SHELL
 ```
-- To list down the available shells in your Linux OS type:
+-  📜List down the available shells in your Linux OS type:
 ```bash
 cat /etc/shells
 ```
@@ -15,9 +15,7 @@ cat /etc/shells
 ### Now let's dive into a few popular ones and what do they do:
 1. ***Bash***
 
-|Thing|Purpose|
-|---|---|
-|**Full Name**: |`Bourne Again Shell` | 
+**Full Name**: `Bourne Again Shell` 
 **Scripting**: `Widely compatible with extensive documentation available.`  
 **Tab Completion feature offered?** `Yes`  
 **Customization offered?** `Basic level`  
@@ -35,15 +33,16 @@ cat /etc/shells
 
 3. ***Zsh***
 
-**Full Name**: Z shell.  
-**Scripting**: Excellent level of scripting, combing the traditional capabilities of Bash shell with some extra features.  
-**Tab Completion feature offered?** Can be extended heavily by using plugins.  
-**Customization offered?** Advanced customization through oh-my-zsh framework.  
-**User friendliness?** less user-friendly yet very popular and widely used.  
-**Syntax highlighting offered?** Not available  
+**Full Name**: `Z shell. ` 
+**Scripting**: `Excellent level of scripting, combing the traditional capabilities of Bash shell with some extra features.`  
+**Tab Completion feature offered?** `Can be extended heavily by using plugins. ` 
+**Customization offered?** `Advanced customization through oh-my-zsh framework.`  
+**User friendliness?** `less user-friendly yet very popular and widely used. ` 
+**Syntax highlighting offered?** `Not available `
 
 ---
-## Shell Scripting & Components
+## Shell Scripting & Components 
+### THE SHEBANG (#!)
 - Every script **must** start with "#!" and these combination of characters is called a ***shebang***!.
 - Shebang "#!" is added at the beginning of the script
 - Followed by the name of the interpereter to be used.
@@ -63,10 +62,11 @@ echo "Welcome, $name"
 ```bash
 chmod +x first_script.sh
 ```
-Now, how to execute a script? \
+Now, how to execute a script? 
 ```bash
 ./first_script.sh
 ```
+### 🔁Loops
 Let's take another example and see how looping would be done in Bash. \
 Below is an example: \
 ```bash
@@ -89,4 +89,13 @@ else
   echo "Sorry! You are not authorized to access the secret"
 fi
 ```
+📌 Notes
+
+- Indentation is not required in Bash…
+
+- …but it is strongly recommended for readability.
+
+- Spaces matter inside [ ] test brackets.
+
+- Always quote variables like "$name" to avoid bugs.
 No, indentation is **not** needed in bash. 
