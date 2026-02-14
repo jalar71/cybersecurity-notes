@@ -9,9 +9,30 @@ as a junior at UAlbany I had the opportunity and the task to learn about how gen
 3. Different Model Types?
 4. Applications?
 
-**First of A.I is not ~~equal~~ to Machine Learning.**
+**First of A.I is not ~~equal to~~ Machine Learning.**
 - It is a branch of Computer Science
 - Which Deals with generation of intelligent ***agents***.
 
 ***What are agents?***
-They can reason
+They can reason, learn and act autonomously.
+
+***What is Machine Learning?***
+- a subfield of A.I
+- A system that trains a model from input data
+> "**Machine Learning gives computers the ability to learn without explicit learning**"
+
+## Machine can be divided into 2 further models
+1. Supervised Model
+   - Data is Labeled
+   - Learns from past examples to predict the future values
+2. Unsupervised Model
+   - Unlabeled Data
+   - See if a patterns occurs from given raw data?
+# Deep Learning is a subset of Machine Learning
+Deep Learning can:
+- process more == complex patterns ==
+- because it uses ***Artificial Neural Networks***
+
+**Artificial Neural Networks** are inspired by the human brain. \
+Made up of many interconnected nodes which are ususally called Neurons as well. \
+These can use both labeled and unlabeled data which is knows as Semi-Supervised learning. 
