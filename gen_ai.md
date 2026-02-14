@@ -36,3 +36,5 @@ Deep Learning can:
 **Artificial Neural Networks** are inspired by the human brain. \
 Made up of many interconnected nodes which are ususally called Neurons as well. \
 These can use both labeled and unlabeled data which is knows as Semi-Supervised learning. 
+**Labeled Data:** teaches basic concepts of the task
+**Un-Labeled Data:** Generalizes new examples.
