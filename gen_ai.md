@@ -32,6 +32,7 @@ They can reason, learn and act autonomously.
 Deep Learning can:
 - process more == complex patterns ==
 - because it uses ***Artificial Neural Networks***
+<p style="color:blue">Make this text blue.</p>
 
 **Artificial Neural Networks** are inspired by the human brain. \
 Made up of many interconnected nodes which are ususally called Neurons as well. \
